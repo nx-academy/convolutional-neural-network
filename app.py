@@ -3,8 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import random
 import tensorflow as tf
-# from tensorflow.python.keras import layers, models, datasets
-from tensorflow.
+from keras import layers, models, datasets
 
 import tensorflow_datasets as tfds
 
