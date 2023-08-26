@@ -2,7 +2,7 @@
 
 WARNING: Work in Progress 🙂
 
-## Prérequis
+## 1. Prérequis
 
 ### 1.1. Programmes
 
@@ -14,9 +14,6 @@ WARNING: Work in Progress 🙂
 - [Dev Container](#) : 
 - [Jupiter Notebook](#) : 
 
-## Outils conseillés
-
-- [Visual Studio Code](https://code.visualstudio.com/) : Visual Studio Code est notre éditeur de texte durant tout le cours. Tous les screencasts seront réalisés avec lui.
 
 ## Installation
 
@@ -27,35 +24,18 @@ Pour récupérer ce projet, vous pouvez simplement réaliser un `git clone` :
 - Via SSH
 
 ```
-git@github.com:nx-academy/Creez-des-pipelines-CI-CD-avec-les-GitHub-Actions.git
+git@github.com:tdimnet/Convolutional-Neural-Network.git
 ```
 
 - Via HTTPS
 
 ```
-https://github.com/nx-academy/Creez-des-pipelines-CI-CD-avec-les-GitHub-Actions.git
+https://github.com/tdimnet/Convolutional-Neural-Network.git
 ```
 
 ### Installation
 
-Pour installer les librairies :
+Lancer l'extension DevContainer avec VSCode. Par défaut, les libraires seront installées lors du build de l'image.
+Une fois votre conteneur lancé, ouvrez le fichier `food.ipynb`. Vous devriez pouvoir lancer le code du notebook.
 
-```
-npm i
-```
-
-Pour lancer l'application React :
-
-```
-npm run dev
-```
-
-Pour builder l'application React :
-
-```
-npm run build
-
-# Puis lancer le serveur de preview
-npm run preview
-```
-
+Pensez bien à installer les extensions recommandées VSCode.
