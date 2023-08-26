@@ -2,40 +2,31 @@
 
 WARNING: Work in Progress 🙂
 
-## 1. Prérequis
+## 1. Prerequistes
 
-### 1.1. Programmes
+### 1.1. Softwares
 
-- [Docker](https://www.docker.com/) : 
-- [VSCode](https://code.visualstudio.com/) : 
+- [Docker](https://www.docker.com/)
+- [VSCode](https://code.visualstudio.com/)
 
-### 1.2. Extensions VSCode
+### 1.2. Extensions
 
-- [Dev Container](#) : 
-- [Jupiter Notebook](#) : 
+- [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+
+There are also two extensions which will be installed when you launch the Docker container. You don't have to do anything, they are installed by default.
+You can find them inside the `./devcontainer/devcontainer.json` file.
+
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
 
 
-## Installation
+## 2. Setting Up
 
-### Clonage du repo
+### 2.1. Clonning the repo
 
-Pour récupérer ce projet, vous pouvez simplement réaliser un `git clone` :
 
-- Via SSH
+### 2.2. Building the Docker image
 
-```
-git@github.com:tdimnet/Convolutional-Neural-Network.git
-```
 
-- Via HTTPS
+#### 2.3. Running the Docker container
 
-```
-https://github.com/tdimnet/Convolutional-Neural-Network.git
-```
-
-### Installation
-
-Lancer l'extension DevContainer avec VSCode. Par défaut, les libraires seront installées lors du build de l'image.
-Une fois votre conteneur lancé, ouvrez le fichier `food.ipynb`. Vous devriez pouvoir lancer le code du notebook.
-
-Pensez bien à installer les extensions recommandées VSCode.
